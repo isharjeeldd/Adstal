@@ -1,0 +1,51 @@
+.impressum {
+  position: relative;
+  margin-top: 170px;
+}
+
+.impressum h2 {
+  color: rgb(20, 20, 20);
+  font-weight: bold;
+  text-align: start;
+}
+
+.impressum h5 {
+  padding-top: 60px;
+  color: rgb(34, 34, 34);
+}
+
+.impressum p {
+  padding-top: 20px;
+  color: rgb(134, 134, 134);
+}
+
+.impressum a {
+  color: #3aafa9;
+  cursor: pointer;
+}
+
+.dash-dash {
+  position: relative;
+  height: 1px;
+  width: 1000px;
+  background: rgba(177, 177, 177, 0.822);
+}
+
+.dash-dash-2 {
+  position: relative;
+  height: 1px;
+  width: 300px;
+  background: rgba(177, 177, 177, 0.822);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3m {
+  grid-template-columns: 1fr 3fr 1fr;
+}

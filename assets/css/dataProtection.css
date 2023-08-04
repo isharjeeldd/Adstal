@@ -1,0 +1,45 @@
+.data-protection ul li {
+  list-style-type: disc !important;
+  color: rgb(134, 134, 134);
+}
+
+.dash-dash {
+  position: relative;
+  height: 1px;
+  width: 300px;
+  background: rgba(177, 177, 177, 0.822);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3m {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.data-protection {
+  position: relative;
+  margin-top: 200px;
+}
+
+.data-protection h2 {
+  color: rgb(20, 20, 20);
+  font-weight: bold;
+  text-align: center;
+}
+
+.data-protection h5 {
+  padding-top: 60px;
+  color: rgb(34, 34, 34);
+}
+
+.data-protection p {
+  padding-top: 20px;
+  color: rgb(134, 134, 134);
+}

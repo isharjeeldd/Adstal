@@ -1,0 +1,40 @@
+.terms-of-conditions {
+  position: relative;
+  margin-top: 200px;
+}
+
+.terms-of-conditions h2 {
+  color: rgb(20, 20, 20);
+  font-weight: bold;
+  text-align: center;
+}
+
+.terms-of-conditions h5 {
+  padding-top: 60px;
+  color: rgb(34, 34, 34);
+}
+
+.terms-of-conditions p {
+  padding-top: 20px;
+  color: rgb(134, 134, 134);
+}
+
+.dash-dash {
+  position: relative;
+  height: 1px;
+  width: 300px;
+  background: rgba(177, 177, 177, 0.822);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3m {
+  grid-template-columns: 1fr 3fr 1fr;
+}
